@@ -1,0 +1,39 @@
+.button-container {
+    color: #FFF;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+    transition: all ease-in-out 0.15s;
+}
+.button-container:hover {
+    background-color: #2e2e2e;
+}
+
+.button-container p {
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.operator {
+    background-color: #363f45;
+    color: #75C3EB;
+    border-radius: 50%;
+}
+
+.clear {
+    background-color: #2a2f32;
+    width: 75%;
+    border-radius: 5px;
+}
+
+.others {
+    color: #75C3EB;
+}
